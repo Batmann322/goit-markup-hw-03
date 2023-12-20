@@ -37,6 +37,9 @@ p {
 }
 
 .container {
+  width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .section {
@@ -45,9 +48,15 @@ p {
 
 .head {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   background: var(--WHITE);
   border-bottom: 1px solid var(--CORNFLOWER);
+}
+
+.navig {
+  display: flex;
+  align-items: center;
 }
 
 .web {
@@ -66,7 +75,8 @@ p {
 }
 
 .list-nav {
-  display: inline-flex;
+  display: flex;
+  justify-content: baseline;
 }
 
 .item-nav:not(:last-child) {
@@ -121,11 +131,15 @@ p {
 }
 
 .hiro {
-  min-height: 600px;
+  padding: 188px 472px 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--NAVYBLUE);
 }
 
 .titel {
+  width: 496px;
   text-align: center;
   color: var(--WHITE);
   font-size: 56px;
@@ -177,7 +191,6 @@ p {
 }
 
 .title-item {
-  width: calc((100% - 40px) / 1);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -247,6 +260,7 @@ p {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  margin: -15px;
   justify-content: center;
 }
 
@@ -284,7 +298,6 @@ p {
 }
 
 .info {
-  width: calc((100% - 500px) / 3);
   padding-top: 16px;
   color: var(--CLOUD);
   line-height: 1.5;
