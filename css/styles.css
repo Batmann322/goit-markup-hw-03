@@ -1,0 +1,288 @@
+:root {
+  --CLOUD: #f4f4fd;
+  --CORNFLOWER: #e7e9fc;
+  --IRIS: #4d5ae5;
+  --NAVYBLUE: #2e2f42;
+  --SLATE: #434455;
+  --WHITE: #ffffff;
+  --OCEAN: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.32px;
+  color: var(--SLATE);
+  background-color: var(--WHITE);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  background: var(--WHITE);
+  border-bottom: 1px solid var(--CORNFLOWER);
+}
+
+.web {
+  margin-right: 76px;
+  color: var(--IRIS);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.studio {
+  color: var(--NAVYBLUE);
+}
+
+.list-nav {
+  display: inline-flex;
+}
+
+.item-nav:not(:last-child) {
+  margin-right: 40px;
+}
+
+.item-nav:last-child {
+  margin-right: 332px;
+}
+
+.list-item-nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--NAVYBLUE);
+}
+
+.list-item-nav:focus {
+  color: var(--OCEAN);
+}
+
+.list-item-nav:hover {
+  color: var(--OCEAN);
+}
+
+.adedres {
+  font-style: normal;
+}
+
+.addres-list {
+  display: inline-flex;
+}
+
+.item-addres:not(:last-child) {
+  margin-right: 40px;
+}
+
+.addres-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--SLATE);
+}
+
+.addres-item:hover {
+  color: var(--OCEAN);
+}
+
+.addres-item:focus {
+  color: var(--OCEAN);
+}
+
+.hiro {
+  min-height: 600px;
+  margin-bottom: 120px;
+  background-color: var(--NAVYBLUE);
+}
+
+.titel {
+  margin-top: 0;
+  padding-top: 188px;
+  text-align: center;
+  color: var(--WHITE);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding: 16px 32px;
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE);
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: var(--OCEAN);
+}
+
+.button:focus {
+  background-color: var(--OCEAN);
+}
+
+.spdt-list {
+  display: flex;
+}
+
+.spdt-list-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.title-list {
+  margin-bottom: 8px;
+  color: var(--NAVYBLUE);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.title-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 120px;
+}
+
+.team {
+  background-color: var(--CLOUD);
+}
+
+.title-team {
+  color: var(--NAVYBLUE);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-list-item {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  background-color: var(--WHITE);
+}
+
+.team-list-item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.team-name {
+  color: var(--NAVYBLUE);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.profession {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+.team-img {
+  margin-bottom: 32px;
+}
+
+.portfolio {
+  color: var(--NAVYBLUE);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-list-item {
+  border: 1px solid var(--CORNFLOWER);
+}
+
+.portfolio-list-item {
+  margin-right: 24px;
+  margin-bottom: 48px;
+}
+
+.portfolio-title {
+  color: var(--NAVYBLUE);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  margin-bottom: 16px;
+}
+
+.product {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer {
+  background-color: var(--NAVYBLUE);
+}
+
+.footer-studio {
+  color: var(--CLOUD);
+}
+
+.info {
+  color: var(--CLOUD);
+  line-height: 1.5;
+}
