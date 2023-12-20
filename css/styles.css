@@ -29,15 +29,18 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0px;
+  margin: 0px;
 }
 
 p {
-  margin-top: 0px;
+  margin: 0px;
 }
 
 .container {
-  max-width: 1440px;
+}
+
+.section {
+  padding: 120px;
 }
 
 .head {
@@ -119,19 +122,17 @@ p {
 
 .hiro {
   min-height: 600px;
-  margin-bottom: 120px;
   background-color: var(--NAVYBLUE);
 }
 
 .titel {
-  margin-top: 0;
-  padding-top: 188px;
   text-align: center;
   color: var(--WHITE);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  margin-bottom: 48px;
 }
 
 .button {
@@ -176,10 +177,10 @@ p {
 }
 
 .title-item {
+  width: calc((100% - 40px) / 1);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-bottom: 120px;
 }
 
 .team {
@@ -222,16 +223,14 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  padding-top: 32px;
 }
 
 .profession {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  margin-bottom: 32px;
-}
-.team-img {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .portfolio {
@@ -242,6 +241,7 @@ p {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -252,9 +252,6 @@ p {
 
 .portfolio-list-item {
   border: 1px solid var(--CORNFLOWER);
-}
-
-.portfolio-list-item {
   margin-right: 24px;
   margin-bottom: 48px;
 }
@@ -266,12 +263,16 @@ p {
   line-height: 1.2;
   letter-spacing: 0.4px;
   margin-bottom: 16px;
+  margin-top: 32px;
+  padding-left: 16px;
 }
 
 .product {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
 .footer {
@@ -283,6 +284,9 @@ p {
 }
 
 .info {
+  width: calc((100% - 500px) / 3);
+  padding-top: 16px;
   color: var(--CLOUD);
   line-height: 1.5;
+  letter-spacing: 0.32px;
 }
