@@ -51,7 +51,7 @@ img {
 }
 
 .section {
-  padding: 120px;
+  padding: 120px 0;
 }
 
 .head {
@@ -83,9 +83,6 @@ img {
   margin-right: 222px;
   display: flex;
   gap: 40px;
-}
-
-.item-nav {
 }
 
 .list-item-nav {
@@ -184,6 +181,10 @@ img {
   background-color: var(--OCEAN);
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .spdt-list {
   display: flex;
   gap: 24px;
@@ -203,13 +204,13 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .title-item {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .team {
@@ -234,7 +235,7 @@ img {
 }
 
 .team-list-item {
-  /* width: calc((100% - 72px) / 4); */
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -302,14 +303,14 @@ img {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
 .product {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .footer {
