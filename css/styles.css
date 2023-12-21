@@ -185,7 +185,7 @@ img {
   background-color: var(--OCEAN);
 }
 
-.hidden {
+.visually-hidden {
   visibility: hidden;
 }
 
@@ -196,10 +196,6 @@ img {
 
 .spdt-list-item {
   width: calc((100% - 72px) / 4);
-}
-
-.spdt-list-item:not(:last-child) {
-  margin-right: 24px;
 }
 
 .title-list {
@@ -240,6 +236,7 @@ img {
 
 .team-list-item {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-list-item:not(:last-child) {
@@ -295,6 +292,7 @@ img {
 }
 
 .portfilio-div {
+  border-top: none;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
