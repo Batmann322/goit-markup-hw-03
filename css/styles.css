@@ -84,7 +84,6 @@ img {
 }
 
 .list-nav {
-  margin-right: 222px;
   display: flex;
   gap: 40px;
 }
@@ -109,6 +108,7 @@ img {
   display: flex;
   align-items: center;
   font-style: normal;
+  margin-left: auto;
 }
 
 .addres-list {
@@ -246,10 +246,6 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-list-item:not(:last-child) {
-  margin-right: 24px;
-}
-
 .div-team {
   padding: 32px 0;
   border-radius: 0px 0px 4px 4px;
@@ -273,7 +269,6 @@ img {
   text-align: center;
   font-size: 16px;
   line-height: 1.5;
-  padding-bottom: 32px;
 }
 
 .portfolio {
@@ -335,7 +330,6 @@ img {
 
 .info {
   max-width: 264px;
-  padding-top: 16px;
   color: var(--CLOUD);
   line-height: 1.5;
   letter-spacing: 0.32px;
